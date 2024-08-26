@@ -58,19 +58,3 @@ This project is a Real-Time Face Recognition Attendance System built using OpenC
   You can install all dependencies using:
   ```bash
   pip install -r requirements.txt
-
-
-## Firebase Setup
-
-1. Go to the Firebase Console and create a new project.
-2. Set up the Realtime Database and Storage buckets.
-3. Generate the `serviceAccountKey.json` file and place it in the root directory.
-4. Update the `databaseURL` and `storageBucket` fields in `main.py` with your Firebase project details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
